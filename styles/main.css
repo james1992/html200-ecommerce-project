@@ -1,6 +1,8 @@
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  max-width: 1100px;
+  margin: auto;
 }
 
 p {
@@ -16,6 +18,39 @@ img {
 
 /***************** NAV *****************/
 
+nav ul {
+  background-color: #4980D2;
+}
+
+nav ul li {
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%
+}
+
+nav ul li a {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul .fa-shopping-cart {
+  color: white;
+}
+
+nav ul #last-nav {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: right;
+  width: 8%;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 100%;
+  text-align: right;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -24,31 +59,69 @@ nav a:hover {
 
 header img {
   max-height: 6rem;
+  float: left;
+}
+h1 {
+  color: #4980D2;
+  width: 30%;
+  font-size: 150%;
+  padding-top: 2%;
 }
 
 h1 .logo-w {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  color: #4980D2;
+}
+
+main {
+  clear: both;
+}
+
+[class*='col-'] {
+  float: left;
+}
+.col-1-6 {
+  width: 16%;
+}
+.col-5-6 {
+  width: 84%;
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /**************** ASIDE ****************/
 
+main aside {
+  max-width: 11%;
+  float: left;
+  padding-top: 3.5rem;
+}
 input[type="submit"] {
+  width:100%;
   padding: .25rem;
+  margin-top: .5rem;
   background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
   border-radius: 5px;
   font-size: .75rem;
   color: white;
 }
+input[type="email"] {
+  width:100%;
+  box-sizing: border-box;
+}
 
 /*********** PRODUCTS SECTION ***********/
 
-section {
+main section {
   padding: 0 .75rem;
 }
 
 h2 {
-  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
@@ -58,4 +131,43 @@ h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
+  padding-bottom: 5%;
 }
+.item-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  /* Added */
+}
+
+.item-container div {
+  width: 30%;
+  height: auto;
+  margin-bottom: 10px;
+  border: solid 1px black;
+  margin: 1%;
+  padding: .25%;
+}
+
+.item-container div img {
+  max-width: 50%;
+  max-height: 40%;
+  margin: auto;
+  display: block;
+}
+
+.item-container div p {
+  font-size: small;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.item-container div .price {
+  font-size: large;
+}
+
+
+/* Create a media query at 600 pixels */
