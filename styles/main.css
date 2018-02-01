@@ -1,7 +1,7 @@
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-  max-width: 1100px;
+  max-width: 1100px; /* Added a max width to the site to conform with site mock ups */
   margin: auto;
 }
 
@@ -11,17 +11,13 @@ p {
   color: #2d2d2d;
 }
 
-/* TODO: size images manually so this is not necessary */
-img {
-  max-height: 20rem;
-}
-
 /***************** NAV *****************/
 
 nav ul {
-  background-color: #4980D2;
+  background-color: #4980D2; /* Matches the color used in the mock up */
 }
 
+/* Use flex box on the nav elements and set the width to each element to 30% */
 nav ul li {
   display: inline-flex;
   flex-direction: column;
@@ -34,10 +30,12 @@ nav ul li a {
   font-weight: bold;
 }
 
+/* Change the color of the shopping cart from black to white */
 nav ul .fa-shopping-cart {
   color: white;
 }
 
+/* Style the cart nav element differently than the text nav. Smaller width and aligh right. */
 nav ul #last-nav {
   display: inline-flex;
   flex-direction: column;
@@ -45,6 +43,7 @@ nav ul #last-nav {
   width: 5%;
 }
 
+/* Remoce text decorations */
 nav a {
   text-decoration: none;
   font-size: 100%;
@@ -61,6 +60,7 @@ header img {
   max-height: 6rem;
   float: left;
 }
+/* Again match the color from the mock up and ensure that the header maintains the same size and shape relative to screen size */
 h1 {
   color: #4980D2;
   width: 20rem;
@@ -72,6 +72,8 @@ h1 .logo-w {
   font-size: 2.5rem;
   color: #4980D2;
 }
+
+/**************** GRID ****************/
 
 main {
   clear: both;
@@ -99,6 +101,7 @@ main aside {
   float: left;
   padding-top: 3.5rem;
 }
+
 input[type="submit"] {
   width:100%;
   padding: .25rem;
@@ -109,6 +112,7 @@ input[type="submit"] {
   font-size: .75rem;
   color: white;
 }
+
 input[type="email"] {
   width:100%;
   box-sizing: border-box;
@@ -133,14 +137,16 @@ h3 {
   color: #2d2d2d;
   padding-bottom: 5%;
 }
+
+/* use flex box to control the layout of the product boxes inside the section grid */
+
 .item-container {
   display: flex;
-  justify-content: center;
+  justify-content: center; /*center the product divs within the section, primarily for the last row that has only two boxes */
   height: auto;
   box-sizing: border-box;
   margin: 0 auto;
-  flex-wrap: wrap;
-  /* Added */
+  flex-wrap: wrap; /* allow the divs to wrap to the next line */
 }
 
 .item-container div {
@@ -160,13 +166,13 @@ h3 {
 }
 
 .item-container div p {
-  font-size: small;
+  font-size: 80%;
   text-align: center;
   padding-top: 5%;
 }
 
 .item-container div .price {
-  font-size: large;
+  font-size: 130%;
 }
 
 
@@ -186,6 +192,8 @@ h3 {
     max-width: 22%;
   }
 }
+
+/* Create a media query at 320 pixels */
 
 @media only screen and (max-width: 320px) {
   .item-container div {
