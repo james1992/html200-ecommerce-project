@@ -25,7 +25,7 @@ nav ul {
 nav ul li {
   display: inline-flex;
   flex-direction: column;
-  width: 30%
+  width: 30%;
 }
 
 nav ul li a {
@@ -42,7 +42,7 @@ nav ul #last-nav {
   display: inline-flex;
   flex-direction: column;
   text-align: right;
-  width: 8%;
+  width: 5%;
 }
 
 nav a {
@@ -63,8 +63,8 @@ header img {
 }
 h1 {
   color: #4980D2;
-  width: 30%;
-  font-size: 150%;
+  width: 20rem;
+  font-size: 2rem;
   padding-top: 2%;
 }
 
@@ -171,3 +171,37 @@ h3 {
 
 
 /* Create a media query at 600 pixels */
+
+@media only screen and (max-width: 600px) {
+  .item-container div {
+    width: 42%;
+  }
+  .col-1-6 {
+    width: 30%;
+  }
+  .col-5-6 {
+    width: 70%;
+  }
+  main aside {
+    max-width: 22%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .item-container div {
+    width: 80%;
+  }
+  .col-1-6 {
+    width: 100%;
+  }
+  .col-5-6 {
+    width: 100%;
+  }
+  main aside {
+    max-width: 100%;
+    padding-top: .5rem;
+  }
+}
+
+
+
