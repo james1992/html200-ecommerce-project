@@ -43,7 +43,7 @@ nav ul #last-nav {
   width: 5%;
 }
 
-/* Remoce text decorations */
+/* Remove text decorations */
 nav a {
   text-decoration: none;
   font-size: 100%;
@@ -116,6 +116,11 @@ input[type="submit"] {
 input[type="email"] {
   width:100%;
   box-sizing: border-box;
+}
+
+#afterSubmit {
+  color: green;
+  font-weight: bold;
 }
 
 /*********** PRODUCTS SECTION ***********/
