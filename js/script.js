@@ -1,3 +1,16 @@
+// Form handler for email sign up
+
+console.log("loaded script.js");
+
+function logEmail() {
+  event.preventDefault();
+  var custEmail = document.emailSignup.email.value
+  console.log("Thanks for signing up for our mailing list!  You will receive promotions and discounts at " + custEmail)
+  document.getElementById("afterSubmit").innerHTML = "Thanks for Signing up!";
+  
+}
+
+
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.

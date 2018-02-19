@@ -35,13 +35,14 @@
   <main class="grid">
     <!-- Added column classes to the section and aside tags to control grid styling -->
     <aside class="col-1-6">
-      <form>
+      <form name="emailSignup" onsubmit="logEmail();">
         <label>Sign up for our mailing list:
           <input type="email" name="email">
         </label>
 
         <input type="submit" value="Submit">
       </form>
+      <p id="afterSubmit"></p>
     </aside>
     <!-- Added column classes to the section and aside tags to control grid styling -->
     <section class="col-5-6">
