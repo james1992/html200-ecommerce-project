@@ -10,6 +10,35 @@ function logEmail() {
   
 }
 
+var cart = []
+
+function addToCart(productName, productPrice) {
+  if(cart.length == 0) {
+    var productSubArray = [productName, productPrice, 1];
+    cart.push(productSubArray);
+  } else {
+    var alreadyInCart = 'No';
+    console.log("here")
+    for (i = 0; i < cart.length; i++) {
+      console.log(cart[i][0] == 'Reversible Plaid')
+      if(cart[i][0] == productName){
+        cart[i][2]++;
+        alreadyInCart = 'Yes';
+      }
+    }
+    if(alreadyInCart = 'No') {
+      var productSubArray = [productName, productPrice, 1];
+      cart.push(productSubArray);
+    }
+  }
+  console.log(cart)
+  console.log("Currently you have the following items in your cart:");
+  for (i = 0; i < cart.length; i++) {
+    console.log(cart[i][2]+ ": " + cart[i][0])
+  }
+}
+
+
 
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
