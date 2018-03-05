@@ -18,15 +18,21 @@ function addToCart(productName, productPrice) {
     cart.push(productSubArray);
   } else {
     var alreadyInCart = 'No';
-    console.log("here")
+
     for (i = 0; i < cart.length; i++) {
       console.log(cart[i][0] == 'Reversible Plaid')
       if(cart[i][0] == productName){
-        cart[i][2]++;
+        orderCount = cart[i][2] + 1
+        console.log(orderCount)
+        var productSubArray = [productName, productPrice, orderCount];
+        console.log(i)
+        cart.splice(0, 1)
+        cart.push(productSubArray);
         alreadyInCart = 'Yes';
       }
     }
-    if(alreadyInCart = 'No') {
+    if(alreadyInCart == 'No') {
+      console.log("second")
       var productSubArray = [productName, productPrice, 1];
       cart.push(productSubArray);
     }
