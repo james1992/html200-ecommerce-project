@@ -177,6 +177,18 @@ h3 {
 
 .item-container div .price {
   font-size: 130%;
+  float: left;
+}
+.item-container div div {
+  float: right;
+  border: none;
+  padding-top: 5.5%;
+  margin: 0%;
+  width: 15%;
+}
+
+.item-container div div .fa {
+  padding-right: 10%;
 }
 
 /* Create a media query at 600 pixels */
