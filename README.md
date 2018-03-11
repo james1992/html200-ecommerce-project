@@ -70,6 +70,15 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 
+#### User base Description
+
 The Winter Wear Warehouse is an ecommerce site that is geared towards a specific audience, in this case the target audience is women ranging in age from teenagers to women in their forties or fifties.  These women will predominantly be middle to upper middle class and they will live in colder climates.  These scarves are both warm and fashionable and at a reasonable price.  Women below middle class will be less likely to buy fashion items and women above upper middle class will look at buying clothes from designer stores.
 
 So unlike, say Amazon, the Winter Wear Warehouse as a specific audience that it is targeting.  Does this mean that no one outside of the above demographic will ever use the site or buy scarves from the site? No, it is certainly possible that men could use the site to either buy scarves for themselves or as gifts.  Their needs should be taken into account but they should not be the focus of website design.
+
+With a relatively broad age range of potential customers the Winter Wear Warehouse site will need to be both desktop and mobile friendly.  Those in their teens, twenties and thirties are more likely to access the site on their mobile device and if they cannot quickly and easily navigate the site to find the scarf they want they will go elsewhere to buy their clothes.  Women in their forties and fifties on the other hand are more likely to access the site on their desktop device.  For this reason the website must have robust designs for both desktop and mobile clients.  As far as internet connection goes we can assume that the majority of the target audience have relatively fast internet connections but we should ensure that images are appropriately sized and compressed where necessary to improve load times.
+
+In addition, potential customers can come from the US and Canada so the site should be tested from the locations and devices in both nations.  At this time the website will not be regularly accessed outside of those two countries.  The website will need to be translated into other languages before it will be ready for use in other countries.
+
+#### Device and location testing
+
