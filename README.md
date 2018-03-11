@@ -69,4 +69,7 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+
+The Winter Wear Warehouse is an ecommerce site that is geared towards a specific audience, in this case the target audience is women ranging in age from teenagers to women in their forties or fifties.  These women will predominantly be middle to upper middle class and they will live in colder climates.  These scarves are both warm and fashionable and at a reasonable price.  Women below middle class will be less likely to buy fashion items and women above upper middle class will look at buying clothes from designer stores.
+
+So unlike, say Amazon, the Winter Wear Warehouse as a specific audience that it is targeting.  Does this mean that no one outside of the above demographic will ever use the site or buy scarves from the site? No, it is certainly possible that men could use the site to either buy scarves for themselves or as gifts.  Their needs should be taken into account but they should not be the focus of website design.
