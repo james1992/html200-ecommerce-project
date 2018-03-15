@@ -94,9 +94,9 @@ Finally, Google also suggested that I alter the browser caching settings to all 
 
 I ran my site through the responsive design checker and I tested the look of my site on all of the available desktop displays, tablets and mobile phones.  Ultimately, I was happy with the way the site responded to the changes in screen resolution.  I did not need to update these settings because I had already performed significant testing on mobile devices for the previous assignments.
 
-https://www.webpagetest.org
+##### https://www.webpagetest.org
 
 
-#### Pingdom Speed Test (https://tools.pingdom.com)
+##### Pingdom Speed Test (https://tools.pingdom.com)
 
 I ran tests first from Toronto to check the load time of my website in the second biggest market I identified for scarves.  I ran tests on Chrome, Firefox and Opera from this location.  In all three browsers I received A ratings for everything except caching static content which the site received an F.  As I stated before I could not figure out how to update this setting on the site so I unfortunately had to ignore this issue for now.
