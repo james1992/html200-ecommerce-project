@@ -83,10 +83,10 @@ In addition, potential customers can come from the US and Canada so the site sho
 #### Device and location testing
 
 https://developers.google.com/speed/pagespeed/insights
--Minify CSS
--Move JC calls to bottom of HTML
--Optimized images
--Attempted browser caching
+- Minify CSS
+- Move JC calls to bottom of HTML
+- Optimized images
+- Attempted browser caching
 http://responsivedesignchecker.com
 https://www.webpagetest.org
 https://tools.pingdom.com
