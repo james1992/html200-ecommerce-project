@@ -82,11 +82,21 @@ In addition, potential customers can come from the US and Canada so the site sho
 
 #### Device and location testing
 
-https://developers.google.com/speed/pagespeed/insights
-- Minify CSS
-- Move JC calls to bottom of HTML
-- Optimized images
-- Attempted browser caching
-http://responsivedesignchecker.com
+##### Page Speed Insights (https://developers.google.com/speed/pagespeed/insights)
+
+First I ran my page through the Google Developer Page Speed Insights to identify areas I could improve on my site.  The biggest improvement that Google identified was compressing the size of the images on the site.  So I removed the highest resolution copy of each image from the source set in order to reduce the amount of content transfering to the client.  This led to a significant improvement in the website score for mobile and desktop clients.
+
+Next Google suggested that I minify my CSS and move the JS calls to the end of the HTML instead of in the header.  I ran the CSS through a minifier and updated the main and reset css files.  These two changes led to a more modest improvement in the website score.
+
+Finally, Google also suggested that I alter the browser caching settings to all client devices to store the images for a longer period of time.  I attempted to do this but the instructions online were not totally clear to me on how to alter the caching settings.  I settled on adding a .htaccess file in the root directory of the site following a guide I found online but when I reran the site through page speed insights Google still said that I needed to update the cache settings.  I am not clear on how I am supposed to alter these settings.
+
+##### Responsive Design Checker (http://responsivedesignchecker.com)
+
+I ran my site through the responsive design checker and I tested the look of my site on all of the available desktop displays, tablets and mobile phones.  Ultimately, I was happy with the way the site responded to the changes in screen resolution.  I did not need to update these settings because I had already performed significant testing on mobile devices for the previous assignments.
+
 https://www.webpagetest.org
-https://tools.pingdom.com
+
+
+#### Pingdom Speed Test (https://tools.pingdom.com)
+
+I ran tests first from Toronto to check the load time of my website in the second biggest market I identified for scarves.  I ran tests on Chrome, Firefox and Opera from this location.  In all three browsers I received A ratings for everything except caching static content which the site received an F.  As I stated before I could not figure out how to update this setting on the site so I unfortunately had to ignore this issue for now.
