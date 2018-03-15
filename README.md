@@ -96,7 +96,10 @@ I ran my site through the responsive design checker and I tested the look of my 
 
 ##### https://www.webpagetest.org
 
+I ran tests first from Toronto to check the load time of my website in the second biggest market I identified for scarves.  I ran tests on Chrome, Firefox and Opera from this location.  In all three browsers I received A ratings for everything except caching static content which the site received an F.  As I stated before I could not figure out how to update this setting on the site so I unfortunately had to ignore this issue for now.  Lincoln Nebraska and Denver Colorado received the same results on all browsers.
+
+The biggest delay in the site is still the images.  I could further reduce the size of the images to speed up the performance of the site but at some point the images would look grainy on larger displays and that would likely decrease sales.  If the clothing is not visually appealing people are less likely to buy.
 
 ##### Pingdom Speed Test (https://tools.pingdom.com)
 
-I ran tests first from Toronto to check the load time of my website in the second biggest market I identified for scarves.  I ran tests on Chrome, Firefox and Opera from this location.  In all three browsers I received A ratings for everything except caching static content which the site received an F.  As I stated before I could not figure out how to update this setting on the site so I unfortunately had to ignore this issue for now.
+Pingdom has less options than webpage test so only one of the cities met the criteria I identified for the site's target audience (New York City).  I ran the site through New York and it received the same results as webpage test, all A's except for leveraging browser caching which received an F.
